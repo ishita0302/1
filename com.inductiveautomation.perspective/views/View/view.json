@@ -9,15 +9,33 @@
           "name": "Image"
         },
         "position": {
-          "height": 100,
+          "height": 222,
           "width": 337,
           "x": 21,
           "y": 36
         },
         "props": {
-          "source": "/system/images/li.jpg"
+          "source": "/system/images/image.jpeg"
         },
         "type": "ia.display.image"
+      },
+      {
+        "meta": {
+          "name": "PowerChart"
+        },
+        "position": {
+          "height": 600,
+          "width": 800,
+          "x": 55,
+          "y": 415
+        },
+        "props": {
+          "interaction": {
+            "chartZoomLevel": 1,
+            "rangeZoomLevel": 1
+          }
+        },
+        "type": "ia.chart.powerchart"
       }
     ],
     "meta": {
